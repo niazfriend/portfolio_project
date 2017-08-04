@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster');
+body{
+	color:#505050;
+	margin-top:40px;
+}
+
+.containers{
+	width:60vw;
+}
+
+h3{
+	font-size:1.25em;
+	color:#fbb034;
+	line-height: 1em;
+	font-weight:bold;
+}
+
+h1.text-justify{
+	font-family:"lobster", cursive;
+	color:#fff;
+}
+
+.contact-text{
+	color:#4d4f53;
+	font-family:"lobster", cursive;
+}
+
+#image{
+  width:100%;
+  height:100vh;
+  background-image: url("https://static.pexels.com/photos/314040/pexels-photo-314040.jpeg");
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
+}
+
+.navbar-brand{
+	font-family:'lobster', cursive;
+	font-size:1.5em;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
+.navbar-default{
+	background-color:#050f2c;
+	color:#fff;
+}
+
+a{
+	color:#fff;
+	font-weight:600;
+}
+
+img.img-center{
+	text-align: center;
+	margin:0 auto;
+	border:5px solid rgb(210, 215, 211);
+	transition:all .2s ease-in-out;
+	object-fit: cover;
+	object-position: center;
+	height:200px;
+}
+
+img.img-center:hover{
+	border:5px solid rgb(34, 49, 63);
+}
+
+.image-run{
+	display:flex;
+	flex-wrap: wrap;
+	margin-top:-30px;
+	width:100%;
+	height:50vh;
+}
+.pro-img{
+	margin-top:20px;
+	height:30vh;
+	margin-bottom:10px;
+	object-fit:cover;
+	object-position: center;
+	border-radius:5px;
+}
+
+.tab-link{
+	background-color:#050f2c;
+	margin-bottom:5px;
+}
+
+.link{
+	color:#49a942;
+}
+
+.skill{
+	width:100%;
+	height:5vh;
+	background-color:#050f2c;
+}
+
+.skill .html{
+	width:80%;
+	height:5vh;
+	background-color:#49a942;
+	font-weight:bold;
+	font-size:1.25em;
+}
+
+.skill .css{
+	width:80%;
+	height:5vh;
+	background-color:#d03027;
+	font-weight:bold;
+	font-size:1.25em;
+}
+
+.skill .js{
+	width:60%;
+	height:5vh;
+	background-color:#616f67;
+	font-weight:bold;
+	font-size:1.25em;
+}
